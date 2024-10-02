@@ -21,7 +21,7 @@ function App() {
                 && <Card
                   key={person.id}
                   name={person.nam}
-                  pic = {`../Photos/photo${person.id}.png`}
+                  pic = {`./Photos/photo${person.id}.png`}
                   pos = {person.position}
                 />
             ))}
@@ -33,7 +33,7 @@ function App() {
                 && <Card
                   key={person.id}
                   name={person.nam}
-                  pic = {`../Photos/photo${person.id}.png`}
+                  pic = {`./Photos/photo${person.id}.png`}
                   pos = {person.position}
                 />
             ))}
